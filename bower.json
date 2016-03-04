@@ -1,0 +1,23 @@
+{
+  "name": "pro6pp",
+  "description": "A simple package for connecting AngularJS with D-Centralize (Pro6PP)",
+  "main": "src/angular-pro6pp.min.js",
+  "moduleType": [],
+  "keywords": [
+    "Pro6pp",
+    "zipcode",
+    "dutch"
+  ],
+  "authors": [
+    "W.A. van Grondelle"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
