@@ -1,0 +1,19 @@
+<div class="form-group">
+	<label for="" class="control-label col-sm-2">
+		Postcode + huisnummer
+	</label>
+	<div class="col-sm-3">
+		<input type="text" name="zipcode" class="form-control" ng-model="zipcode" placeholder="Postcode">
+	</div>
+	<div class="col-sm-2">
+		<input type="text" name="housenumber" class="form-control" ng-model="housenumber" placeholder="Huisnummer">
+	</div>
+	<div class="col-sm-3">
+	</div>
+</div>
+<div class="col-sm-10 col-sm-offset-2" class="ng-hide" ng-show="validationStatus == 'error' || requestStarted">
+	<div class="row">
+		<p ng-model="validationMessage" ng-bind="validationMessage"></p>
+		<p class="request-in-progress ng-hide" ng-show="requestStarted">1 ogenblik a.u.b.</p>
+	</div>
+</div>
